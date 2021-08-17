@@ -1,0 +1,131 @@
+// vscode settings
+{
+  "editor.fontSize": 17,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "selection",
+  "workbench.colorCustomizations": {
+
+    // "editorWhitespace.foreground": "#1E1E1E", // <-- use here the theme's background color
+    // "editor.selectionBackground": "#cec8b6",
+    // "editor.selectionHighlightBackground": "#cec8b6",
+    "tab.activeModifiedBorder": "#db3f3f",
+    "tab.activeBorder": "#627dae",
+  },
+  // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.bundle.*": true,
+    "**/builds": true,
+    "build/**": true,
+    // pepperdata folders below
+    "**/*.snap": true,
+    "*/__coverage__/*": true,
+    "**/target/**": true
+  },
+  "workbench.iconTheme": "vs-seti",
+  // ---- Unity related ----
+  // hide c# reference count
+  "editor.codeLens": false,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "typescript.suggestionActions.enabled": false,
+  "javascript.validate.enable": false,
+  "workbench.editor.closeEmptyGroups": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "editor.renderControlCharacters": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "html.autoClosingTags": false,
+  "html.format.indentInnerHtml": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.associations": {
+    "*.jsp": "jsp"
+  },
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "off",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.startupEditor": "welcomePage",
+  "editor.autoSurround": "never",
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "editor.rulers": [
+    100
+  ],
+  "search.collapseResults": "alwaysExpand",
+  "partialDiff.enableTelemetry": false,
+  "terminal.integrated.fontSize": 14,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "gitlens.views.repositories.showBranchComparison": "branch",
+  "gitlens.views.repositories.branches.layout": "list",
+  "gitlens.views.repositories.files.layout": "list",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "details": false,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": false,
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true,
+      "stashInline": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true,
+      "stash": true
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "formattingToggle.affects": [
+    "formatOnSave"
+  ],
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.wrapTabs": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "window.zoomLevel": -1,
+}
